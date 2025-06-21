@@ -1,0 +1,133 @@
+#mission-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.mission-title {
+    font-Weight:  300;  
+    font-Size: 64px;
+    line-height: 64px;
+    color: rgba(189, 189, 189, 1);
+    margin-bottom: 40px;
+}
+
+.mission-items {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.mission-item {
+  display: flex;
+  align-items: flex-start;
+  max-width: 300px;
+  text-align: left;
+  position: relative;
+}
+
+.mission-number {
+  font-size: 5rem;
+  font-weight: bold;
+  color: rgba(189, 189, 189, 1);
+  margin-right: 20px;
+  line-height: 1;
+}
+
+.mission-text {
+  font-size: 0.95rem;
+  color: rgba(0, 0, 0, 1);
+}
+/*styling for project grid*/ 
+
+.projects-section {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.section-title {
+    font-Weight:  300;  
+    font-Size: 64px;
+    line-height: 64px;
+    color: rgba(189, 189, 189, 1);
+    margin-bottom: 40px;
+    margin-bottom: 30px;
+}
+
+.projects-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.top-row,
+.bottom-row {
+  display: grid;
+  gap: 15px;
+}
+
+.top-row {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.bottom-row {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.project-item img {
+  width: 85%;
+  height: 200px;
+  display: block;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.allProjectsButton {
+  margin-top: 30px;
+  text-align: right;
+}
+
+.allProjectsButton button {
+  padding: 10px 20px;
+  border: 1px solid #444;
+  background-color: #444;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.allProjectsButton button:hover {
+  background-color: white;
+  color: #444;
+}
+
+/* 🔄 Responsive layout for smaller screens */
+@media (max-width: 768px) {
+  .mission-items {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .mission-item {
+    justify-content: center;
+    max-width: 90%;
+  }
+
+  .mission-number {
+    font-size: 4rem;
+    margin-right: 16px;
+  }
+
+  .mission-title {
+    font-size: 1.5rem;
+  }
+
+  /* .top-row {
+    grid-template-columns: 1fr;
+  }
+
+  .bottom-row {
+    grid-template-columns: 1fr;
+  } */
+}

@@ -1,0 +1,85 @@
+#contactSection{
+    max-width: 100%;
+    height:auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contactForm{
+    max-width:50%;
+    height:auto;
+    padding:5px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.contactForm h2{
+    font-Weight:  300;  
+    font-Size: 64px;
+    line-height: 64px;
+    color: rgba(189, 189, 189, 1);
+    margin-bottom: 40px;
+    margin-bottom: 30px;
+}
+
+input{
+    background-color:rgb(212, 210, 210) ;
+    color: rgb(100, 99, 99);
+    width: 100%;
+    height:20px;
+    padding:10px;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+textarea{
+    background-color:rgb(212, 210, 210) ;
+    color: rgb(100, 99, 99);
+    width: 100%;
+    height:100px;
+    padding:10px;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.contactImgDiv{
+    max-width: 40%;
+    height:auto;
+    border-radius: 5px;
+}
+.contactImgDiv img{
+    width:100%;
+    height:300px;
+}
+
+
+.contactButton button {
+  padding: 10px 20px;
+  border: 1px solid #444;
+  background-color: #444;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contactButton button:hover {
+  background-color: white;
+  color: #444;
+}
+@media(max-width:621px){
+  #contactSection{
+    flex-direction: column;
+}
+.contactForm{
+    max-width:100%;
+
+    
+}
+.contactImgDiv{
+    max-width: 80%;
+}
+    
+}
