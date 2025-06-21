@@ -33,12 +33,17 @@ const PhotoGallery=()=>{
             <NavBar/>
 
             <div id="galleryContainer">
-                <h2>Photo Gallery</h2>
+                <h2>Photo <br/><span>Gallery</span></h2>
                 <div className="imgContainer">
                     {gallery.map(pic =>{
                         return (<img src={pic.image} />);
                     })}
                 </div>
+                <div className="Button">
+                        <button>←</button>
+                    
+                        <button>→</button>
+                    </div>
 
             </div>
 

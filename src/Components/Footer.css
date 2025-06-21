@@ -1,4 +1,6 @@
 #footerContainer {
+  max-width: 100%;
+  height:auto;
   background-color: #222;
   color: #fff;
   padding: 40px 20px 20px;
@@ -32,7 +34,11 @@
   margin-bottom: 8px;
   font-size: 14px;
 }
-
+.footerSection a{
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
 .social-icons a {
   margin-right: 10px;
   color: white;

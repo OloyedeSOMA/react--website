@@ -11,17 +11,40 @@
     max-width: 40%;
     margin:5px;
     padding:5px;
-    color:rgba(51, 51, 51, 1);
+    
 }
-.heroText h3{
+.firstHeaderText{
     font-Weight:  300;  
     font-Size: 64px;
     line-height: 64px;
+    color:rgba(189, 189, 189, 1);
 }
-.heroText h2{
+
+.secondHeaderText{
     font-Weight:  700;  
     font-Size: 64px;
     line-height: 64px;
+    color:rgba(51, 51, 51, 1);
+    margin-bottom: 50px;
+}
+.Button{
+    display:flex;
+    justify-content: left;
+    gap:10px;
+    margin-top:40px;
+}
+.Button button{
+    font-size: 1.5rem;
+    padding: 8px 12px;
+    border: none;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Button button:hover {
+    background-color: #dcdcdc;
 }
 .heroImage{
     max-width:70%;
@@ -32,53 +55,33 @@
     width:500px;
     height:auto;
 }
-
-#aboutContainer{
-    max-width: 100%;
-    background-color:rgb(251, 251, 251, 1);
-    height:auto;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 20px;
+.heroButton button{
+    position: relative;
+    top:135px;
+    left:430px;
+    width: 170px;
+    height:60px;
+    background-color: white;
+    border:2px solid white;
+    color: rgba(51, 51, 51, 1);
+    cursor: pointer;
+    transition: 0.3s ease;
+    z-index: 10px;
+    padding:5px;
 }
 
-.aboutGrid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    width: 40%;
-    margin: auto;
-    padding: 20px;
+@media(max-width:768px){
+    .heroButton button{
+    top:135px;
+    left:230px;
 }
-.aboutGrid img{
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    display: block;
-}
-.last{
-    grid-column: 1/2;
-}
-.aboutText{
-    width:50%;
-    height:auto;
-    
-}
-.aboutText h2{
-    font-Weight:  300;  
-    font-Size: 64px;
-    line-height: 64px;
-    color: rgba(189, 189, 189, 1);
-}
-.aboutText p{
-    font-Weight:  300;  
-    font-Size: 16px;
-    line-height: 25px;
-    color: rgba(0, 0, 0, 1);
 }
 @media(max-width:650px){
+    .heroButton button{
+    position: relative;
+    top:335px;
+    left:0px;
+}
     .heroImage{
     max-width:100%;
     height:auto;

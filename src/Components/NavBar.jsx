@@ -1,4 +1,4 @@
-import { Link, Links } from 'react-router-dom';
+import { NavLink} from 'react-router-dom';
 import navLogo from '../assets/navLogo.png';
 import './NavBar.css';
 const NavBar=()=>{
@@ -7,9 +7,9 @@ const NavBar=()=>{
             <div id="nav">
                 <ul>
                     <li><img src={navLogo}/></li>
-                    <li><Link to="/">HOME</Link></li>
-                    <li><Link to="/photogallery">GALLERY</Link></li>
-                    <li><Link to="/projects">PROJECTS</Link></li>
+                    <li><NavLink to="/" className={"nav-link"}>HOME</NavLink></li>
+                    <li><NavLink to="/photogallery" className={"nav-link"}>GALLERY</NavLink></li>
+                    <li><NavLink to="/projects" className={"nav-link"}>PROJECTS</NavLink></li>
                 </ul>
             </div>
         </>

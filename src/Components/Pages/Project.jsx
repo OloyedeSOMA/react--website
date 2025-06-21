@@ -32,7 +32,7 @@ const Project =()=>{
             <NavBar />
                 <section className="projectsSection">
       <h2 className="sectionTitle">
-        Our <span>Projects</span>
+        Our <br/><span>Projects</span>
       </h2>
       <div className="projectsWrapper">
         {projects.map((project, index) => (

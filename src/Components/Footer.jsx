@@ -24,9 +24,9 @@ const Footer = () => {
       <div className="footerSection">
         <h4>Contacts</h4>
         <ul>
-          <li>📍 1234 Sample Street<br />Austin Texas 78704</li>
-          <li>📞 512.333.2222</li>
-          <li>✉️ sampleemail@gmail.com</li>
+          <li><a href="#"><i className="fas fa-location-dot"></i></a> 1234 Sample Street<br />Austin Texas 78704</li>
+          <li><a href="#"><i className="fas fa-phone"></i></a> 512.333.2222</li>
+          <li><a href="#"><i className="fas fa-envelope-square"></i></a>sampleemail@gmail.com</li>
         </ul>
       </div>
 
