@@ -1,4 +1,4 @@
-import image1 from '../assets/image 1.png';
+import image1 from '../../assets/image 1.png';
 
 
 import './HeroSection.css';

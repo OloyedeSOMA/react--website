@@ -1,5 +1,5 @@
-import NavBar from '../NavBar';
-import Footer from '../Footer';
+import NavBar from '../GlobalComponents/NavBar';
+import Footer from '../GlobalComponents/Footer';
 import './projectsList.css';
 import image30 from '../../assets/image 30.png';
 import image32 from '../../assets/image 32.png';

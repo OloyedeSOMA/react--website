@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
-import image5 from '../assets/image 5.png';
-import image15 from '../assets/image 15.png';
-import image16 from '../assets/image 16.png';
-import image17 from '../assets/image 17.png';
-import image18 from '../assets/image 18.png';
+import image5 from '../../assets/image 5.png';
+import image15 from '../../assets/image 15.png';
+import image16 from '../../assets/image 16.png';
+import image17 from '../../assets/image 17.png';
+import image18 from '../../assets/image 18.png';
 import './ProjectSection.css';
 const ProjectSection=()=>{
     return(

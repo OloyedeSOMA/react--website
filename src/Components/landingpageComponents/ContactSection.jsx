@@ -1,4 +1,4 @@
-import image12 from '../assets/image 12.png';
+import image12 from '../../assets/image 12.png';
 import './ContactSection.css';
 const ContactSection=()=>{
     return(

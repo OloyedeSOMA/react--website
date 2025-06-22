@@ -1,6 +1,6 @@
-import NavBar from '../NavBar';
+import NavBar from '../GlobalComponents/NavBar';
 import './PhotoGallery.css';
-import Footer from '../Footer';
+import Footer from '../GlobalComponents/Footer';
 import image6 from '../../assets/image 6.png';
 import image7 from '../../assets/image 7.png';
 import image8 from '../../assets/image 8.png';
